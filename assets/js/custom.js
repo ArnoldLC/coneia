@@ -36,15 +36,15 @@
 	/* ----------------------------------------------------------- */
 
   $("#mu-event-counter")
-    .countdown("2019/11/15")
+    .countdown("2019/11/11")
     .on("update.countdown", function(event) {
       var $this = $(this).html(
         event.strftime(
           "" +
-            '<span class="mu-event-counter-block"><span>%D</span> Days</span> ' +
-            '<span class="mu-event-counter-block"><span>%H</span> Hours</span> ' +
-            '<span class="mu-event-counter-block"><span>%M</span> Mins</span> ' +
-            '<span class="mu-event-counter-block"><span>%S</span> Secs</span>'
+            '<span class="mu-event-counter-block"><span>%D</span> Días</span> ' +
+            '<span class="mu-event-counter-block"><span>%H</span> Horas</span> ' +
+            '<span class="mu-event-counter-block"><span>%M</span> Minutos</span> ' +
+            '<span class="mu-event-counter-block"><span>%S</span> Segundos</span>'
         )
       );
     });
