@@ -98,7 +98,7 @@ Author URI : http://www.markups.io/
 .mu-navbar .mu-menu li a:focus,
 .mu-single-event .mu-event-time {
   /* color: #ee3268; */
-  color: #1c1b1b;
+  color: #d84545;
 }
 
 .mu-speakers-slider .slick-next,
@@ -118,18 +118,19 @@ Author URI : http://www.markups.io/
 .mu-schedule-menu li.active a:focus {
   /* background-color: #EE3268; */
   /* background-color: #2c5fb2; */
-  background-color: #54c143;
+  /* background-color: #63b747; */
+  background-color: #3574b2;
 }
 
 .mu-social-media a:hover,
 .mu-social-media a:focus {
-  border: 1px solid #ee3268;
-  color: #ee3268;
+  border: 1px solid #2c5fb2;
+  color: #2c5fb2;
 }
 
 .mu-contact-form .form-control:focus,
 .mu-schedule-menu li a {
-  border: 1px solid #ee3268;
+  border: 1px solid #3574b2;
 }
 
 .mu-send-msg-btn,
@@ -151,6 +152,6 @@ Author URI : http://www.markups.io/
 
 .mu-reg-submit-btn:hover,
 .mu-reg-submit-btn:focus {
-  background-color: #ee3268;
-  border: 2px solid #ee3268;
+  background-color: #e5c844;
+  border: 2px solid #e5c844;
 }

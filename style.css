@@ -1749,6 +1749,18 @@ button:focus {
   background-image: url("assets/images/coneia-logo.png");
 }
 
+#mu-register::before {
+  background: #3d2e2d;
+}
+
+.mu-reg-submit-btn:hover {
+  color: #1c1b1b;
+}
+
+.mu-event-date-line {
+  color: #d84545;
+}
+
 @media screen and (min-width: 768px) {
   .navbar-header {
     justify-content: flex-start;
