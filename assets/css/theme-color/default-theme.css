@@ -97,7 +97,8 @@ Author URI : http://www.markups.io/
 .mu-navbar .mu-menu li a:hover,
 .mu-navbar .mu-menu li a:focus,
 .mu-single-event .mu-event-time {
-  color: #ee3268;
+  /* color: #ee3268; */
+  color: #1c1b1b;
 }
 
 .mu-speakers-slider .slick-next,
@@ -116,7 +117,8 @@ Author URI : http://www.markups.io/
 .mu-schedule-menu li.active a:hover,
 .mu-schedule-menu li.active a:focus {
   /* background-color: #EE3268; */
-  background-color: #2c5fb2;
+  /* background-color: #2c5fb2; */
+  background-color: #54c143;
 }
 
 .mu-social-media a:hover,

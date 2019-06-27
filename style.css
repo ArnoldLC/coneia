@@ -1745,6 +1745,10 @@ button:focus {
   padding-top: 40px;
 }
 
+#mu-hero {
+  background-image: url("assets/images/coneia-logo.png");
+}
+
 @media screen and (min-width: 768px) {
   .navbar-header {
     justify-content: flex-start;
