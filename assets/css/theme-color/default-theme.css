@@ -1,4 +1,3 @@
-
 /*=======================================
 Template Design By MarkUps	
 Author URI : http://www.markups.io/
@@ -6,10 +5,74 @@ Author URI : http://www.markups.io/
 
 .mu-hero-overlay,
 .mu-video-overlay {
-	background-color: #EE3268;/* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #64b3f4, #EE3268);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #64b3f4, #EE3268); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  /* background-color: #ee3268; fallback for old browsers */
+  /* background: -webkit-linear-gradient(
+    to right,
+    #64b3f4,
+    #ee3268
+  ); Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(
+    to right,
+    #64b3f4,
+    #ee3268
+	); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -moz-linear-gradient(
+    333deg,
+    #326cca 0%,
+    #2f74ba 6%,
+    #279287 26%,
+    #20b253 47%,
+    #dde426 95%,
+    #f1ea22 100%
+  ); /* ff3.6+ */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(0%, #326cca),
+    color-stop(6%, #2f74ba),
+    color-stop(26%, #279287),
+    color-stop(47%, #20b253),
+    color-stop(95%, #dde426),
+    color-stop(100%, #f1ea22)
+  ); /* safari4+,chrome */
+  background: -webkit-linear-gradient(
+    333deg,
+    #326cca 0%,
+    #2f74ba 6%,
+    #279287 26%,
+    #20b253 47%,
+    #dde426 95%,
+    #f1ea22 100%
+  ); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(
+    333deg,
+    #326cca 0%,
+    #2f74ba 6%,
+    #279287 26%,
+    #20b253 47%,
+    #dde426 95%,
+    #f1ea22 100%
+  ); /* opera 11.10+ */
+  background: -ms-linear-gradient(
+    333deg,
+    #326cca 0%,
+    #2f74ba 6%,
+    #279287 26%,
+    #20b253 47%,
+    #dde426 95%,
+    #f1ea22 100%
+  ); /* ie10+ */
+  background: linear-gradient(
+    117deg,
+    #326cca 0%,
+    #2f74ba 6%,
+    #279287 26%,
+    #20b253 47%,
+    #dde426 95%,
+    #f1ea22 100%
+  ); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#326CCA', endColorstr='#F1EA22',GradientType=1 );
 }
 
 .mu-primary-btn:hover,
@@ -21,7 +84,7 @@ Author URI : http://www.markups.io/
 .mu-faq-content .panel-title a:hover,
 .mu-faq-content .panel-title a:focus,
 .mu-faq-content .panel-title a[aria-expanded="true"],
-.mu-faq-content .panel-title a>span,
+.mu-faq-content .panel-title a > span,
 .mu-menu ul li a:hover,
 .mu-menu ul li a:focus,
 .mu-single-speakers-info p,
@@ -34,7 +97,7 @@ Author URI : http://www.markups.io/
 .mu-navbar .mu-menu li a:hover,
 .mu-navbar .mu-menu li a:focus,
 .mu-single-event .mu-event-time {
-	color: #EE3268;
+  color: #ee3268;
 }
 
 .mu-speakers-slider .slick-next,
@@ -44,44 +107,48 @@ Author URI : http://www.markups.io/
 .mu-navbar .navbar-toggle,
 .mu-navbar .navbar-toggle:hover,
 .mu-navbar .navbar-toggle:focus,
-.navbar-default .navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:focus, 
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover,
 .mu-schedule-menu li a:hover,
 .mu-schedule-menu li a:focus,
 .mu-schedule-menu li.active a,
 .mu-schedule-menu li.active a:hover,
 .mu-schedule-menu li.active a:focus {
-	background-color: #EE3268;
+  /* background-color: #EE3268; */
+  background-color: #2c5fb2;
 }
 
 .mu-social-media a:hover,
 .mu-social-media a:focus {
-	border: 1px solid #EE3268;
-	color: #EE3268;
+  border: 1px solid #ee3268;
+  color: #ee3268;
 }
 
 .mu-contact-form .form-control:focus,
 .mu-schedule-menu li a {
-	border: 1px solid #EE3268;    
-} 
+  border: 1px solid #ee3268;
+}
 
 .mu-send-msg-btn,
 .mu-send-msg-btn:focus,
 .mu-register-btn:hover,
 .mu-register-btn:focus,
 .mu-popular-price .mu-register-btn {
-	border: 1px solid #EE3268;
-	background-color: #EE3268;
+  border: 1px solid #ee3268;
+  background-color: #ee3268;
 }
 
-.mu-faq-content .panel-default > .panel-heading + .panel-collapse > .panel-body {
-	border-top-color: #EE3268;
-
+.mu-faq-content
+  .panel-default
+  > .panel-heading
+  + .panel-collapse
+  > .panel-body {
+  border-top-color: #ee3268;
 }
 
 .mu-reg-submit-btn:hover,
 .mu-reg-submit-btn:focus {
-	background-color: #EE3268;
-	border: 2px solid #EE3268;
+  background-color: #ee3268;
+  border: 2px solid #ee3268;
 }
