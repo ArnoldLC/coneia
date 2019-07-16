@@ -324,8 +324,8 @@ button:focus {
   border: 2px solid #fff;
   border-radius: 50%;
   display: inline-block;
-  height: 180px;
-  width: 180px;
+  height: 160px;
+  width: 160px;
   text-align: center;
   font-size: 22px;
   color: #fff;
@@ -337,7 +337,7 @@ button:focus {
   display: block;
   font-size: 40px;
   font-weight: 700;
-  padding-top: 56px;
+  padding-top: 40px;
   line-height: 40px;
 }
 
