@@ -431,7 +431,7 @@ button:focus {
 /*--------------------*/
 
 #mu-video {
-  background-image: url("assets/images/about-video-bg.jpg");
+  background-image: url("assets/images/unt.jpg");
   background-attachment: fixed;
   background-position: center center;
   -webkit-background-size: cover;
@@ -1360,8 +1360,12 @@ button:focus {
     padding: 10px 6px;
   }
 
-  .mu-hero-featured-content h1 {
+  /* .mu-hero-featured-content h1 {
     font-size: 35px;
+  } */
+
+  .mu-hero-featured-content h1 {
+    font-size: 30px;
   }
 
   .mu-hero-featured-content h2 {
@@ -1537,8 +1541,11 @@ button:focus {
     margin-top: 20px;
   }
 
-  .mu-hero-featured-content h1 {
+  /* .mu-hero-featured-content h1 {
     font-size: 25px;
+  } */
+  .mu-hero-featured-content h1 {
+    font-size: 20px;
   }
 
   .mu-hero-featured-content h2 {
@@ -1747,7 +1754,7 @@ button:focus {
 }
 
 #mu-hero {
-  background-image: url("assets/images/coneia-logo.png");
+  background-image: url("assets/images/trujillo.jpg");
 }
 
 #mu-register::before {
