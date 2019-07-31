@@ -390,6 +390,10 @@ button:focus {
   width: 100%;
 }
 
+#mu-about p {
+  text-align: justify;
+}
+
 .mu-about-area {
   display: inline;
   float: left;
