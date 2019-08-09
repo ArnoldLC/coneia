@@ -26,8 +26,10 @@
   jQuery(window).bind("scroll", function() {
     if ($(window).scrollTop() > 150) {
       $(".mu-navbar").addClass("mu-nav-show");
+      $(".bottom-register").addClass("bottom-register--show");
     } else {
       $(".mu-navbar").removeClass("mu-nav-show");
+      $(".bottom-register").removeClass("bottom-register--show");
     }
   });
 

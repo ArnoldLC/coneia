@@ -1265,6 +1265,7 @@ button:focus {
   display: inline;
   float: left;
   width: 100%;
+  padding-bottom: 4rem;
 }
 
 .mu-footer-area {
@@ -1921,5 +1922,66 @@ path.two {
   .cta svg {
     height: 43px;
     width: 66px;
+  }
+}
+
+.bottom-register {
+  position: fixed;
+  transition: all 0.3s linear;
+  bottom: -80px;
+  right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem;
+  background: #4178d1ee;
+  /* background: #fff; */
+  box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.bottom-register--show {
+  bottom: 0;
+}
+
+.bottom-register a {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+.icon-register {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin-right: 1rem;
+}
+
+.pen-color {
+  fill: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .bottom-register {
+    width: auto;
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    top: 35%;
+    right: -80px;
+    bottom: auto;
+  }
+
+  .bottom-register a {
+    text-orientation: upright;
+    letter-spacing: -5px;
+  }
+
+  .bottom-register--show {
+    bottom: auto;
+    right: 0;
+  }
+
+  .icon-register {
+    margin: 0 0 0 2.5px;
   }
 }
