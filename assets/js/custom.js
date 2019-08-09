@@ -176,7 +176,30 @@
   });
 
   /* ----------------------------------------------------------- */
-  /*  6. BOOTSTRAP ACCORDION 
+  /*  6. SPONSORS SLIDEER ( SLICK SLIDER )
+	/* ----------------------------------------------------------- */
+
+  $(".sponsors-slider").slick({
+    slidesToShow: 4,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: true,
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: true,
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
+  /* ----------------------------------------------------------- */
+  /*  7. BOOTSTRAP ACCORDION 
 	/* ----------------------------------------------------------- */
 
   /* Start for accordion #1*/
@@ -199,7 +222,7 @@
   });
 
   /* ----------------------------------------------------------- */
-  /*  7. MOBILE MENU CLOSE 
+  /*  8. MOBILE MENU CLOSE 
 	/* ----------------------------------------------------------- */
 
   jQuery(".mu-menu").on("click", "li a", function() {

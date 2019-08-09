@@ -711,14 +711,16 @@ button:focus {
   width: 100%;
 }
 
-.mu-speakers-content {
+.mu-speakers-content,
+.sponsors-content {
   display: inline;
   float: left;
   margin-top: 50px;
   width: 100%;
 }
 
-.mu-single-speakers {
+.mu-single-speakers,
+.mu-single-sponsor {
   padding: 0 10px;
   outline: none;
   text-align: center;
@@ -726,11 +728,13 @@ button:focus {
   transition: all 0.3s ease 0s;
 }
 
-.mu-speakers-slider .slick-next {
+.mu-speakers-slider .slick-next,
+.sponsors-content .slick-next {
   right: -60px;
 }
 
-.mu-speakers-slider .slick-prev {
+.mu-speakers-slider .slick-prev,
+.sponsors-content .slick-prev {
   left: -60px;
 }
 
@@ -1984,4 +1988,8 @@ path.two {
   .icon-register {
     margin: 0 0 0 2.5px;
   }
+}
+
+.mu-video-iframe-area {
+  padding: 7% 0;
 }
