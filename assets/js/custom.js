@@ -175,6 +175,15 @@
     ]
   });
 
+  $(".hero-slider").slick({
+    slidesToShow: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    settings: {
+      arrows: true
+    }
+  });
+
   /* ----------------------------------------------------------- */
   /*  6. SPONSORS SLIDEER ( SLICK SLIDER )
 	/* ----------------------------------------------------------- */
