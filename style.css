@@ -2046,3 +2046,60 @@ path.two {
     height: calc(100vh + 16rem);
   }
 }
+#mu-speakers {
+  background: #f8f8f8;
+}
+
+#bases {
+  display: inline;
+  float: left;
+  width: 100%;
+  padding: 4rem 0;
+}
+
+.activities {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem;
+}
+
+.activities-icon {
+  text-align: center;
+}
+
+.activities-icon img {
+  width: 60px;
+}
+
+.activities-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.activities-body h3 {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 1.5rem;
+}
+
+.activities-body ul {
+  margin-top: auto;
+  text-align: center;
+}
+
+.activities-body ul li {
+  list-style: none;
+}
+
+.activities-body ul li a {
+  font-size: 16px;
+}
+
+.activities-body ul li a:hover {
+  color: #b94a48;
+}
+
+.activities-body ul li a span {
+  display: inline-block;
+  width: 20px;
+}
