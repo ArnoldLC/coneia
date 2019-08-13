@@ -1444,11 +1444,13 @@ button:focus {
     right: 5%;
   }
 
-  .mu-speakers-slider .slick-next {
+  .mu-speakers-slider .slick-next,
+  .sponsors-content .slick-next {
     right: 0;
   }
 
-  .mu-speakers-slider .slick-prev {
+  .mu-speakers-slider .slick-prev,
+  .sponsors-content .slick-prev {
     left: 0;
   }
 
@@ -1936,7 +1938,7 @@ path.two {
   display: flex;
   justify-content: center;
   padding: 1.25rem;
-  background: #4178d1ee;
+  background: rgba(65, 120, 209, 0.933);
   /* background: #fff; */
   box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.3);
 }
